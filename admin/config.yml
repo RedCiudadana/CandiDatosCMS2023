@@ -7,7 +7,7 @@ media_folder: "images/posts" # Media files will be stored in the repo under src/
 public_folder: "/images/posts" # The src attribute for uploaded media will begin with assets/images/posts
 
 collections:
-- name: "distritos" # Used in routes, e.g., /admin/collections/blog
+  - name: "distritos" # Used in routes, e.g., /admin/collections/blog
     label: "Distritos" # Used in the UI
     folder: "src/distritos" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -19,11 +19,32 @@ collections:
       - { name: "perfildemografico", label: "Perfil Demografico (2022)" }
       - { name: "razonvoto", label: "¿Qué se vota en el distrito?" }
       - { name: "historialeleccion", label: "Historial de Elección" }
-      - { name: "lidereshistoricos", label: "Liderzagos históricos (si los hay, 3 memorias)", widget: "list",max: 3, min: 1 }
+      - {
+          name: "lidereshistoricos",
+          label: "Liderzagos históricos (si los hay, 3 memorias)",
+          widget: "list",
+          max: 3,
+          min: 1,
+        }
       - { name: "diputadosdistritales", label: "Diputados Distritales" }
-      - { name: "alcaldemun", label: "Alcalde Municipal (con todos los municipios)" }
-      - { name: "partidosganadores", label: "Partidos ganadores históricos (si los hay, 3 memorias)", widget: "list",max: 3, min: 1  }
-      - { name: "participacionmujeres", label: "Participación histórica de mujeres (3 períodos)", widget: "list",max: 3, min: 1  }
+      - {
+          name: "alcaldemun",
+          label: "Alcalde Municipal (con todos los municipios)",
+        }
+      - {
+          name: "partidosganadores",
+          label: "Partidos ganadores históricos (si los hay, 3 memorias)",
+          widget: "list",
+          max: 3,
+          min: 1,
+        }
+      - {
+          name: "participacionmujeres",
+          label: "Participación histórica de mujeres (3 períodos)",
+          widget: "list",
+          max: 3,
+          min: 1,
+        }
       - { label: "FotoDistrito", name: "fotodistrito", widget: "image" }
   - name: "publicaciones" # Used in routes, e.g., /admin/collections/blog
     label: "Publicaciones" # Used in the UI
