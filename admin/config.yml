@@ -15,35 +15,46 @@ collections:
     editor:
       preview: false # Disable the editor preview and use instead 'preview links'
     fields: # The fields for each document, usually in front matter
-      - { name: "perfildistrito", label: "Perfil Distrito" }
-      - { name: "perfildemografico", label: "Perfil Demografico (2022)" }
-      - { name: "razonvoto", label: "¿Qué se vota en el distrito?" }
-      - { name: "historialeleccion", label: "Historial de Elección" }
+      - { name: "perfildistrito", label: "Perfil Distrito", widget: "markdown" }
+      - {
+          name: "perfildemografico",
+          label: "Perfil Demografico (2022)",
+          widget: "markdown",
+        }
+      - {
+          name: "razonvoto",
+          label: "¿Qué se vota en el distrito?",
+          widget: "markdown",
+        }
+      - {
+          name: "historialeleccion",
+          label: "Historial de Elección",
+          widget: "markdown",
+        }
       - {
           name: "lidereshistoricos",
           label: "Liderzagos históricos (si los hay, 3 memorias)",
-          widget: "list",
-          max: 3,
-          min: 1,
+          widget: "markdown",
         }
-      - { name: "diputadosdistritales", label: "Diputados Distritales" }
+      - {
+          name: "diputadosdistritales",
+          label: "Diputados Distritales",
+          widget: "markdown",
+        }
       - {
           name: "alcaldemun",
           label: "Alcalde Municipal (con todos los municipios)",
+          widget: "markdown",
         }
       - {
           name: "partidosganadores",
           label: "Partidos ganadores históricos (si los hay, 3 memorias)",
-          widget: "list",
-          max: 3,
-          min: 1,
+          widget: "markdown",
         }
       - {
           name: "participacionmujeres",
           label: "Participación histórica de mujeres (3 períodos)",
-          widget: "list",
-          max: 3,
-          min: 1,
+          widget: "markdown",
         }
       - { label: "FotoDistrito", name: "fotodistrito", widget: "image" }
   - name: "publicaciones" # Used in routes, e.g., /admin/collections/blog
