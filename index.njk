@@ -9,9 +9,272 @@ permalink: "index.html"
 {% endblock %}
 
 {% block content %}
+
+        <!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element bg-color" style="background-image:url('elementos/ELEMENTOS/SLIDER/01.png')">
+			<div class="container">
+				<div class="row h-100">
+					<div class="col-lg-6 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
+						<h4 class="display-6 text-white" style="font-weight: 800">Informate sobre el proceso de las 
+                        elecciones a nivel departamental y municipal</h4>
+						<div>
+							<a href="#" data-bs-toggle="modal" data-bs-target="#modal-signin" class="button button-large border border-width-2 bg-alt6 py-2 rounded-1 fw-medium nott ls0 ms-0 ms-sm-1 h-op-09">Más Información &nbsp<i class="icon-arrow-right"></i></a>
+						</div>
+					</div>
+
+					<div class="col-lg-6 d-flex align-self-center flex-column">
+						<img src="elementos/ELEMENTOS/SLIDER/02.png" alt="Hero Image" style="z-index: 3;">
+					</div>
+				</div>
+			</div>
+			<!--div class="bg-alt py-5">
+				<div class="container">
+					<div class="d-flex">
+						<h4 class="mb-0"><span class="counter counter-inherit fw-normal text-white"><i class="icon-line-users icon-fw"></i> <span class="color fw-semibold" data-from="100" data-to="12462" data-refresh-interval="150" data-speed="2000"></span> Members Registered.</span></h4>
+						<h4 class="mb-0 ms-5"><span class="counter counter-inherit fw-normal text-white"><i class="icon-line-message-circle icon-fw"></i> <span class="color fw-semibold" data-from="100" data-to="340333" data-refresh-interval="100" data-speed="2000"></span> Posts Created.</span></h4>
+					</div>
+				</div>
+			</div-->
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+
+		<!-- Nosotros
+		============================================= -->
+
+				<div class="container clearfix">
+					<div class="heading-block center">
+						<h2>Elecciones 2023</h2>
+						<span>Esta iniciativa busca generar y difundir información clara y confiable sobre el proceso electoral a fin de 
+                        empoderar a la ciudadanía y garantizar así el ejercicio del voto informado</span>
+					</div>
+
+					<div class="row justify-content-center col-mb-50">
+
+                        <div class="field d-flex border-rounded justify-content-center">
+                            <div class="d-flex" style="padding:0.2rem;border:2px solid #f1f2fa;background:#f1f2fa;border-radius:20px;align-items:center;width:50%;justify-content:center">
+                                <label for="searchField" style="display:none">Search</label>
+                                <input class="form-control" type="search" placeholder="Seleccione el distrito de su interés" id="searchField" style="max-width: 400px;border:0px;background:#f1f2fa"/>
+                                <i class="icon-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div id="searchResultsContainer" class="searchResultsContainer w-100 rounded bg-white shadow-sm mx-auto" style="max-width: 450px;display:none">
+                            <ol id="searchResults" style="z-index: 20;">
+                            </ol>
+                        </div>
+
+					</div>
+
+				</div>
+
+       <!-- Distritos
+		============================================= -->
+
+				<div class="section py-6 my-6 m-0" style="background-color: #f1f2fa;margin-bottom:0!important">
+                    
+					<div class="row text-center px-6 mb-5"  style="justify-content:space-evenly;align-items:flex-start">
+                        
+                        <div class="row posts-md col-xl-5 col-sm-12" style="margin-bottom:1rem">
+                            <div class="shadow bg-white" style="height:530px;width:100%"></div>
+                        </div>
+
+                        <div class="row posts-md col-mb-30 col-xl-7 col-sm-12">
+
+                            <div class="post-md col-xl-4 col-sm-12" >
+                                <div class="shadow bg-white" style="height:250px;width:100%"></div>
+                            </div>
+                            <div class="post-md col-xl-4 col-sm-12" >
+                                <div class="shadow bg-white" style="height:250px;width:100%"></div>
+                            </div>
+                            <div class="post-md col-xl-4 col-sm-12" >
+                                <div class="shadow bg-white" style="height:250px;width:100%"></div>
+                            </div>
+                            <div class="post-md col-xl-4 col-sm-12" >
+                                <div class="shadow bg-white" style="height:250px;width:100%"></div>
+                            </div>
+                            <div class="post-md col-xl-4 col-sm-12" >
+                                <div class="shadow bg-white" style="height:250px;width:100%"></div>
+                            </div>
+                            <div class="post-md col-xl-4 col-sm-12" >
+                                <div class="shadow bg-white" style="height:250px;width:100%"></div>
+                            </div>
+
+                            <div class="post-md col-xl-12 col-sm-12 d-flex justify-content-end">
+                                <a href="/distritos/index.html" data-bs-toggle="modal" data-bs-target="#modal-signin" class="button button-large border border-width-2 bg-alt2 py-2 rounded-1 fw-medium nott ls0 ms-0 ms-sm-1 h-op-09">Ver todos los distritos</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+				</div>
+
+        <!-- Podcast
+		============================================= -->
+
+				<div class="section py-6 my-6" style="background-color: #00263B; margin-top:0!important">
+					{% if collections.podcastsHighlighted %}
+					{% for podcast in collections.podcastsHighlighted | limit(1)%}
+					<div class="container">
+						<div class="row align-items-center col-mb-50">
+							<!--div class="col-md-6">
+								<img src="demos/forum/images/doc.svg" alt="Doc Image">
+							</div-->
+							<div class="col-md-12 text-center">
+								<div class="row posts-md col-mb-30" style="align-items:center">
+									
+									<div class="entry col-sm-6 col-xl-4">
+										<div class="grid-inner">
+											<span>Podcast</span>
+											<h3>{{podcast.data.title}}</h3>
+											<a href="" class="button button-large button-border rounded-1 fw-medium nott bg-alt2 ls0 ms-0">Suscribirse</a>
+										</div>
+									</div>
+
+									<div class="entry col-sm-6 col-xl-4">
+										<div class="grid-inner">
+											<iframe src="{{podcast.data.link}}" width="100%"
+                							height="232" frameBorder="0" allowfullscreen=""
+               								 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+										</div>
+									</div>
+
+									<div class="entry col-sm-6 col-xl-4">
+										<div class="grid-inner">
+											<span>SUSCRÍBITE AHORA</span>
+											<h3>Lorem ipsum dolor sit amet,</h3>
+											<p>{{podcast.data.description}}</p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+					{% endif %}
+				</div>
+
+
+		<!-- Blogs y Podcasts
+		============================================= -->
+				
+			
+				<div class="container my-4">
+					<div class="row text-center mb-5"  style="justify-content:space-evenly;align-items:flex-start">
+						<!--div class="col-lg-6">
+							<h3 class="display-4 fw-bolder mb-3">Publicaciones</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
+						</div-->
+
+						<div class="row posts-md col-mb-30 col-xl-6">
+
+
+							<h2 style="text-align:left;margin:1rem 0">Blogs</h2>
+
+							{% for blog in collections.blogs | reverse | limit(5) %}
+					
+				
+							<div class="event-bg event-bg-03 pos-rel mb-30" style="margin:1rem 0;">
+								<div class="row" style=" align-items:center">
+									<div class="col-xl-6 col-lg-6">
+										<div class="event-img mb-20 center">
+											<a href="{{blog.url}}"><img style="height:100%!important" src="{{blog.data.image}}" alt=""></a>
+										</div>
+									</div>
+									<div class="col-xl-6 col-lg-6">
+										<div class="event-wrapper mb-20 " >
+											<div class="event-text">
+												<!--span><i class="far fa-map-marked-alt verdeo"></i> Guatemala - 8 de Septiembre 2021</span-->
+												<h3> {{blog.data.title}}</h3>
+											</div>
+											<div class="event-meta">
+												<span><!--i class="far fa-user-circle"></i-->{{blog.data.autor}} | {{blog.data.date | dateFormat('DD/MM/YYYY')}}</span>
+											</div><br>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							{% endfor %}
+
+							<div class="mb-6" style="display:flex; justify-content:flex-end">
+								<a href="/blogs/index.html">Más Blogs<i class="icon-arrow-right" style="margin-left:5px"></i></a>
+							</div>	
+				
+						</div>
+
+						<div class="row posts-md col-mb-30 col-xl-3">
+							<h3 style="text-align:left;margin:1rem 0">Podcasts</h3>
+
+							{% for podcast in collections.podcasts | reverse | limit(4)%}
+							<div class="entry ">
+								<div class="grid-inner">
+									<iframe height="155px" src="{{podcast.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<p class="txt-video">{{podcast.data.description}}</p>
+								</div>
+								
+							</div>
+							{% endfor %}
+
+							<div class="mb-6">
+								<div style="display:flex; justify-content:flex-end">
+								<a href="/podcasts/index.html">Más Podcasts<i class="icon-arrow-right" style="margin-left:5px"></i></a>
+							</div>	
+						</div>	
+						
+
+					</div>	
+				</div>
+			</div>
+
+
+		</section><!-- #content end -->
    
 {% endblock %}
 
 {% block body_javascripts %}
+
+    <!--Only 5.7kb GZipped. You may want to bundle this with your application code. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+  <script>
+    (function(window, document) {
+    "use strict";
+
+    const search = e => {
+      const results = window.searchIndex.search(e.target.value);
+
+      const ol = document.getElementById("searchResults");
+      const searchResultsContainer = document.getElementById("searchResultsContainer");
+      ol.innerHTML = "";
+      searchResultsContainer.style.position = 'none';
+      if (results && results.length > 0) {
+        searchResultsContainer.style.position = 'static';
+        results.map(r => {
+          const { id, nombre, ministerios } = r.doc;
+
+          // this is where you'll go wild with your own HTML injection.
+          const li = document.createElement("li");
+          ol.appendChild(li);
+
+          const a = document.createElement("a");
+          a.setAttribute("href", id);
+          a.textContent = `${nombre}, ${ministerios}`;
+          li.appendChild(a);
+        });
+      }
+    };
+
+    fetch("/search-index.json").then(response =>
+      response.json().then(rawIndex => {
+        window.searchIndex = elasticlunr.Index.load(rawIndex);
+        document.getElementById("searchField").addEventListener("input", search);
+      })
+    );
+  })(window, document);
+  </script>
 
 {% endblock %}
