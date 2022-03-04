@@ -3,7 +3,103 @@
 {% block head %}
 <title>{{ title }}</title>
 <link rel="stylesheet" href="/css/maingrid.css" type="text/css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 {% endblock %}
+        
 
 {% block content %}
+
+        <!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap" style="background-color:#f1f2fa">
+                <div class="col-12 mx-6">
+                    <p><a href="/distritos/index.html">Distritos</a> <i class="fa-solid fa-chevron-right"></i> <a style="pointer-events: none" href="">{{title}}</a></p>
+                </div>
+                <div class="bg-white mx-6">
+                    <div class="row">
+                        <div class="col-xl-4 col-sm-12 px-4">
+                            <div class="px-4 py-6">
+                                <p class="texto-verde">Guatemala</p>
+                                <h1 class="title">{{title}}</h1>
+                                <img src="{{mapa}}">
+                                <br>
+                                <h1 class="title">Índice</h1>
+                                <br>
+                                <ul>
+                                    <li class="texto-verde list-dist">1. &nbsp<a href="#1" class="txt-verde">Perfil de distrito</a></li>
+                                    <li class="texto-verde list-dist">2. &nbsp<a href="#2" class="txt-verde">Perfil Demografico (2022)</a></li>
+                                    <li class="texto-verde list-dist">3. &nbsp<a href="#3" class="txt-verde">¿Qué se vota en el distrito?</a></li>
+                                    <li class="texto-verde list-dist">4. &nbsp<a href="#4" class="txt-verde">Historial de Elección</a></li>
+                                    <li class="texto-verde list-dist">5. &nbsp<a href="#5" class="txt-verde">Liderzagos históricos </a></li>
+                                    <li class="texto-verde list-dist">6. &nbsp<a href="#6" class="txt-verde">Diputados Distritales</a></li>
+                                    <li class="texto-verde list-dist">7. &nbsp<a href="#7" class="txt-verde">Alcalde Municipal </a></li>
+                                    <li class="texto-verde list-dist">8. &nbsp<a href="#8" class="txt-verde">Partidos ganadores históricos </a></li>
+                                    <li class="texto-verde list-dist">9. &nbsp<a href="#9" class="txt-verde">Participación histórica de mujeres </a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-8 col-sm-12">
+
+                            <div class="py-6 px-4" id="1">
+                                <h1 class="title">Perfil de distrito</h1>
+                                <br><hr><br>
+                                <p>{{perfildistrito}}</p>
+                            </div>
+
+                            <div class="py-6 px-4" id="2">
+                                <h1 class="title">Perfil Demografico (2022)</h1>
+                                <br><hr><br>
+                                <p>{{perfildemografico}}</p>
+                            </div>
+
+                            <div class="py-6 px-4" id="3">
+                                <h1 class="title">¿Qué se vota en el distrito?</h1>
+                                <br><hr><br>
+                                <p>{{razonvoto}}</p>
+                            </div>
+
+                            <div class="py-6 px-4" id="4">
+                                <h1 class="title">Historial de Elección</h1>
+                                <br><hr><br>
+                                <p>{{historialeleccion}}</p>
+                            </div>
+
+                            <div class="py-6 px-4" id="5">
+                                <h1 class="title">Liderzagos históricos </h1>
+                                <br><hr><br>
+                                <p>{{lidereshistoricos}}</p>
+                            </div>
+
+                            <div class="py-6 px-4" id="6">
+                                <h1 class="title">Diputados Distritales</h1>
+                                <br><hr><br>
+                                <p>{{diputadosdistritales}}</p>
+                            </div>
+
+                            <div class="py-6 px-4" id="7">
+                                <h1 class="title">Alcalde Municipal </h1>
+                                <br><hr><br>
+                                <p>{{alcaldemun}}</p>
+                            </div>
+
+                            <div class="py-6 px-4" id="8">
+                                <h1 class="title">Partidos ganadores históricos </h1>
+                                <br><hr><br>
+                                <p>{{partidosganadores}}</p>
+                            </div>
+
+                            <div class="py-6 px-4" id="9">
+                                <h1 class="title">Participación histórica de mujeres </h1>
+                                <br><hr><br>
+                                <p>{{participacionmujeres}}</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 {% endblock %}

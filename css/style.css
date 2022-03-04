@@ -18428,3 +18428,32 @@ label.checkbox {
   margin: 10px 0;
   font-size: 12px;
 }
+
+hr {
+  border: 4px solid #02b08f;
+  border-radius: 2px;
+  width: 60px;
+  border-top-width: 0 !important;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000046;
+}
+
+.texto-verde {
+  color: #00af87;
+}
+
+.txt-verde {
+  color: #020202;
+}
+
+.txt-verde:hover {
+  color: #00af87 !important;
+}
+
+.list-dist {
+  padding: 0.5rem 0;
+}
