@@ -1,0 +1,111 @@
+---
+pagination:
+  data: collections.distritos
+  size: 5
+  alias: list
+  reverse: true
+permalink: "distritos/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+
+{% extends "base.njk" %}
+
+{% block head %}
+    <title>CandiDatos | Distritos</title>
+{% endblock %}
+
+{% block content %}
+
+        <!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+
+                <!-- Buscador
+				============================================= -->
+
+				<div class="container clearfix">
+					<div class="heading-block center">
+						<h2>Elecciones 2023</h2>
+						<span>Esta iniciativa busca generar y difundir información clara y confiable sobre el proceso electoral a fin de 
+                        empoderar a la ciudadanía y garantizar así el ejercicio del voto informado</span>
+					</div>
+
+					<div class="row justify-content-center col-mb-50">
+
+                        <div class="field d-flex border-rounded justify-content-center">
+                            <div class="d-flex" style="padding:0.2rem;border:2px solid #f1f2fa;background:#f1f2fa;border-radius:20px;align-items:center;width:50%;justify-content:center">
+                                <label for="searchField" style="display:none">Search</label>
+                                <input class="form-control" type="search" placeholder="Seleccione el distrito de su interés" id="searchField" style="max-width: 400px;border:0px;background:#f1f2fa"/>
+                                <i class="icon-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div id="searchResultsContainer" class="searchResultsContainer w-100 rounded bg-white shadow-sm mx-auto" style="max-width: 450px;display:none">
+                            <ol id="searchResults" style="z-index: 20;">
+                            </ol>
+                        </div>
+
+					</div>
+
+				</div>
+
+                <!-- event-area-start -->
+                <div class="event-area pt-60 pb-130">
+                    <div class="container">
+
+                        {% if list%}
+                        {% for item in list%}
+                        <div class="event-bg event-bg-03 pos-rel mb-30" style="margin:1rem 0">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6">
+                                    <div class="event-img mb-20 center">
+                                        <a href="{{item.url}}"><img style="height:100%!important" src="{{item.data.image}}" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6">
+                                    <div class="event-wrapper mb-20 ">
+                                        <div class="event-text">
+                                            <!--span><i class="far fa-map-marked-alt verdeo"></i> Guatemala - 8 de Septiembre 2021</span-->
+                                            <h3> {{item.data.title}}</h3>
+                                        </div>
+                                        <div class="event-meta">
+                                            <span><!--i class="far fa-user-circle"--></i>{{item.data.description}}</span>
+                                        </div><br>
+                                        <div class="cta-content">
+
+                                            <div class="cta-button">
+                                                <a class="btn" href="{{item.url}}">Ver Blog <i class="far fa-long-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                        {% endif %}
+
+                        <div class="d-flex justify-content-center">
+                            {% if pagination.href.previous %}
+                            <div class="mx-4">
+                                {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Blogs más recientes</a>{% else %}←  Nuevos blog{% endif %}
+                            </div>
+                            {% endif %}
+                            {% if pagination.href.next %}
+                            <div class="mx-4">
+                                {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Blogs anteriores →</a>{% else %}Blog anteriores →{% endif %}
+                            </div>
+                            {% endif %}
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+{% endblock %}
+
+{% block body_javascripts %}
+
+{% endblock %}
