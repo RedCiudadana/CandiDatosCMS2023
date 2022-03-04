@@ -58,6 +58,7 @@ collections:
           widget: "markdown",
         }
       - { label: "FotoDistrito", name: "fotodistrito", widget: "image" }
+      - { label: "Mapa", name: "mapa", widget: "image" }
   - name: "elecciones" # Used in routes, e.g., /admin/collections/blog
     label: "Elecciones" # Used in the UI
     folder: "src/elecciones" # The path to the folder where the documents are stored
@@ -85,7 +86,6 @@ collections:
           widget: "markdown",
         }
       - { label: "Imagen", name: "imagen", widget: "image" }
-      - { label: "Mapa", name: "mapa", widget: "image" }
   - name: "publicaciones" # Used in routes, e.g., /admin/collections/blog
     label: "Publicaciones" # Used in the UI
     folder: "src/publicaciones" # The path to the folder where the documents are stored
