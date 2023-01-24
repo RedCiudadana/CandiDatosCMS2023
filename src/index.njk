@@ -116,16 +116,13 @@ permalink: "index.html"
 				</div>
 
         <!-- Podcast
-		============================================= -->
+		============================================= >
 
 				<div class="section py-6 my-6" style="background-color: #00263B; margin-top:0!important">
 					{% if collections.podcastsHighlighted %}
 					{% for podcast in collections.podcastsHighlighted | limit(1)%}
 					<div class="container">
 						<div class="row align-items-center col-mb-50">
-							<!--div class="col-md-6">
-								<img src="demos/forum/images/doc.svg" alt="Doc Image">
-							</div-->
 							<div class="col-md-12 text-center">
 								<div class="row posts-md col-mb-30" style="align-items:center">
 									
@@ -159,10 +156,10 @@ permalink: "index.html"
 					</div>
 					{% endfor %}
 					{% endif %}
-				</div>
+				</div-->
 
 
-		<!-- Blogs y Podcasts
+		<!-- Blogs y Videos
 		============================================= -->
 				
 			
@@ -211,13 +208,13 @@ permalink: "index.html"
 						</div>
 
 						<div class="row posts-md col-mb-30 col-xl-3">
-							<h3 style="text-align:left;margin:1rem 0">Podcasts</h3>
+							<h3 style="text-align:left;margin:1rem 0">Videos</h3>
 
-							{% for podcast in collections.podcasts | reverse | limit(4)%}
+							{% for video in collections.videos | reverse | limit(4)%}
 							<div class="entry ">
 								<div class="grid-inner">
-									<iframe height="155px" src="{{podcast.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									<p class="txt-video">{{podcast.data.description}}</p>
+									<iframe height="155px" src="{{video.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<p class="txt-video">{{video.data.description}}</p>
 								</div>
 								
 							</div>
