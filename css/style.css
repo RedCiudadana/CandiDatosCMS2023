@@ -9454,7 +9454,6 @@ td.actions {
   background-color: #1fc68b;
   color: #fff;
   font-weight: 500;
-  text-transform: uppercase;
   letter-spacing: 1px;
   border: none;
   border-radius: 10px;
@@ -19662,3 +19661,16 @@ hr {
     margin: 30px 0;
     border-bottom: 1px solid #FFF;
   }
+
+.seleccionador{
+  padding:10px 15px;
+  border:2px solid #f1f2fa;
+  background:#f1f2fa;
+  border-radius:20px;
+  align-items:center;
+  width:50%;
+}
+
+.seleccionador > *{
+  padding: 10px;
+}
