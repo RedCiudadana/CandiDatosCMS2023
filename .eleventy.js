@@ -16,6 +16,14 @@ module.exports = function (eleventyConfig) {
         return array.slice(0, limit);
     });
 
+    eleventyConfig.addNunjucksFilter("limitPart", function (array, limit1, limit2) {
+        return array.slice(limit1, limit2);
+    });
+
+    eleventyConfig.addNunjucksFilter("limitSinPrimero", function (array, limit) {
+        return array.slice(1, limit);
+    });
+
     eleventyConfig.addFilter("dateFormat", function(date, format) {
         return moment(date).format(format);
     });

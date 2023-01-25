@@ -19674,3 +19674,13 @@ hr {
 .seleccionador > *{
   padding: 10px;
 }
+
+.bg-green-hover{
+  transition: 0.5s;
+}
+
+.bg-green-hover:hover{
+  background-color: #1fc68b!important;
+  color: #FFF!important;
+}
+
