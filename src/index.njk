@@ -55,8 +55,9 @@ permalink: "index.html"
                         <div class="field d-flex border-rounded justify-content-center w-100">
 							<select name="select" class="seleccionador">
 								<option value="value1" selected hidden>Seleccione el distrito de su interés</option>
-								<option value="value2">Value 2</option>
-								<option value="value3">Value 3</option>
+								{% for distrito in collections.distritos %}
+								<option value="{{distrito.data.title}}">{{distrito.data.title}}</option>
+								{% endfor %}
 							</select>
                         </div>
 

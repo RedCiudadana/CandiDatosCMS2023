@@ -19684,3 +19684,13 @@ hr {
   color: #FFF!important;
 }
 
+.title_distrito{
+  margin: 20px 0;
+  border-left: 4px solid #1fc68b;
+  display: flex;
+  align-items: center;
+}
+
+.title_distrito > *{
+  margin: 0 5px;
+}
