@@ -19666,7 +19666,7 @@ hr {
   }
 
 .seleccionador{
-  padding:10px 15px;
+  padding:2px 15px;
   border:2px solid #f1f2fa;
   background:#f1f2fa;
   border-radius:20px;
@@ -19674,8 +19674,13 @@ hr {
   width:50%;
 }
 
-.seleccionador > *{
-  padding: 10px;
+.link-seleccionador{
+  color: #777;
+}
+
+select {
+  max-height: calc(1.2em + 24px);
+  height: calc(1.2em + 24px);
 }
 
 .bg-green-hover{
@@ -19696,4 +19701,13 @@ hr {
 
 .title_distrito > *{
   margin: 0 5px;
+}
+
+.list-distritos{
+  width: 50%;
+  text-align: center;
+}
+
+.word-wrap{ 
+  white-space: pre-line;
 }

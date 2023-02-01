@@ -33,12 +33,14 @@ permalink: "distritos/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pag
 					<div class="row justify-content-center col-mb-50">
 
                         <div class="field d-flex border-rounded justify-content-center w-100">
-							<select name="select" class="seleccionador">
-								<option value="value1" selected hidden>Seleccione el distrito de su interés</option>
+							<a class="link-seleccionador dropdown-toggle seleccionador text-center word-wrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Seleccione el distrito de su interés
+							</a>
+							<div class="dropdown-menu list-distritos" aria-labelledby="navbarDropdown">
 								{% for distrito in collections.distritos %}
-								<option value="{{distrito.data.title}}">{{distrito.data.title}}</option>
+								<a class="dropdown-item" href="{{distrito.url}}">{{distrito.data.title}}</a>
 								{% endfor %}
-							</select>
+							</div>
                         </div>
 
 					</div>
