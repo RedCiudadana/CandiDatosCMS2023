@@ -1,11 +1,10 @@
 ---
 title: Distrito Guatemala
 perfildistrito: >-
-  El departamento de Guatemala fue creado por un decreto de la Asamblea
-  Constituyente del Estado de Guatemala el 4 de noviembre de 1825. En ese
-  momento la recién promulgada Constitución dividió a la República de Guatemala
-  en siete grandes departamentos, entre los cuáles se encontraba el departamento
-  de Guatemala.
+  <!--StartFragment-->
+
+
+  El departamento de Guatemala fue creado por un decreto de la Asamblea Constituyente del Estado de Guatemala el 4 de noviembre de 1825. En ese momento la recién promulgada Constitución dividió a la República de Guatemala en siete grandes departamentos, entre los cuáles se encontraba el departamento de Guatemala.
 
 
   Actualmente, el Departamento de Guatemala cuenta con una superficie de 2,253 km², lo que la sitúa como la metrópoli más extensa de la región centroamericana. Su población total es de 3,015,081 habitantes, que se subdividen en un 91.24% de población urbana y únicamente el restante 8.76% de población rural. Asimismo, el departamento de Guatemala cuenta con una población mayoritariamente femenina (51.93%) y ladina (85.51%). La edad promedio del departamento es de 29 años, por lo que se puede catalogar como predominantemente joven. 
@@ -48,6 +47,9 @@ perfildistrito: >-
   * Villa Canales
 
   * San Miguel Petapa
+
+
+  <!--EndFragment-->
 perfildemografico: >-
   <!--StartFragment-->
 
