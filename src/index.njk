@@ -16,7 +16,7 @@ permalink: "index.html"
 			<div class="container">
 				<div class="row h-100 justify-content-center mb-50 mt-50">
 					<div class="col-lg-6 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4 text-center">
-						<h4 class="display-6 text-white" style="font-weight: 800">Informate sobre el proceso de las 
+						<h4 class="text-white" style="font-size: calc(0.875rem + 1.1vw);font-weight: 800">Informate sobre el proceso de las 
                         elecciones a nivel departamental y municipal</h4>
 						<div>
 							<a href="#" data-bs-toggle="modal" data-bs-target="#modal-signin" class="button">Más Información &nbsp<i class="icon-arrow-right"></i></a>
@@ -46,7 +46,7 @@ permalink: "index.html"
 				<div class="container clearfix mb-100 mt-100">
 					<div class="heading-block center">
 						<h2>Elecciones 2023</h2>
-						<span>Esta iniciativa busca generar y difundir información clara y confiable sobre el proceso electoral a fin de 
+						<span style="color:#555!important;font-size:16px;line-height:17px">Esta iniciativa busca generar y difundir información clara y confiable sobre el proceso electoral a fin de 
                         empoderar a la ciudadanía y garantizar así el ejercicio del voto informado</span>
 					</div>
 
@@ -85,47 +85,7 @@ permalink: "index.html"
 							</div>
 
 							<div class="row p-1 col-mb-30 col-xl-7 col-sm-12 h-100">
-								{% for  distrito in collections.distritos | reverse | limitSinPrimero(2)%}
-								<div class="p-1 col-xl-4 col-sm-12" >
-									<a href="{{distrito.url}}"><div class="shadow bg-white bg-green-hover p-3">
-										<img src="{{distrito.data.fotodistrito}}">
-										<h4>{{distrito.data.title}} <img style="height:30px; width:30px" src="/elementos/ICONOS/ICONOS-31.png"></h4>
-									</div></a>
-								</div>
-								{% endfor %}
-								{% for  distrito in collections.distritos | reverse | limitSinPrimero(2)%}
-								<div class="p-1 col-xl-4 col-sm-12" >
-									<a href="{{distrito.url}}"><div class="shadow bg-white bg-green-hover p-3">
-										<img src="{{distrito.data.fotodistrito}}">
-										<h4>{{distrito.data.title}} <img style="height:30px; width:30px" src="/elementos/ICONOS/ICONOS-31.png"></h4>
-									</div></a>
-								</div>
-								{% endfor %}
-								{% for  distrito in collections.distritos | reverse | limitSinPrimero(2)%}
-								<div class="p-1 col-xl-4 col-sm-12" >
-									<a href="{{distrito.url}}"><div class="shadow bg-white bg-green-hover p-3">
-										<img src="{{distrito.data.fotodistrito}}">
-										<h4>{{distrito.data.title}} <img style="height:30px; width:30px" src="/elementos/ICONOS/ICONOS-31.png"></h4>
-									</div></a>
-								</div>
-								{% endfor %}
-								{% for  distrito in collections.distritos | reverse | limitSinPrimero(2)%}
-								<div class="p-1 col-xl-4 col-sm-12" >
-									<a href="{{distrito.url}}"><div class="shadow bg-white bg-green-hover p-3">
-										<img src="{{distrito.data.fotodistrito}}">
-										<h4>{{distrito.data.title}} <img style="height:30px; width:30px" src="/elementos/ICONOS/ICONOS-31.png"></h4>
-									</div></a>
-								</div>
-								{% endfor %}
-								{% for  distrito in collections.distritos | reverse | limitSinPrimero(2)%}
-								<div class="p-1 col-xl-4 col-sm-12" >
-									<a href="{{distrito.url}}"><div class="shadow bg-white bg-green-hover p-3">
-										<img src="{{distrito.data.fotodistrito}}">
-										<h4>{{distrito.data.title}} <img style="height:30px; width:30px" src="/elementos/ICONOS/ICONOS-31.png"></h4>
-									</div></a>
-								</div>
-								{% endfor %}
-								{% for  distrito in collections.distritos | reverse | limitSinPrimero(2)%}
+								{% for  distrito in collections.distritos | reverse%}
 								<div class="p-1 col-xl-4 col-sm-12" >
 									<a href="{{distrito.url}}"><div class="shadow bg-white bg-green-hover p-3">
 										<img src="{{distrito.data.fotodistrito}}">
@@ -211,12 +171,12 @@ permalink: "index.html"
 				
 							<div class="event-bg event-bg-03 pos-rel mb-30" style="margin:1rem 0;">
 								<div class="row" style=" align-items:center">
-									<div class="col-xl-6 col-lg-6 px-0">
+									<div class="col-xl-4 col-lg-3 px-0">
 										<div class="event-img mb-20 center">
 											<a href="{{blog.url}}"><img style="height:100%!important; width:100%!important" src="{{blog.data.image}}" alt=""></a>
 										</div>
 									</div>
-									<div class="col-xl-6 col-lg-6">
+									<div class="col-xl-8 col-lg-8">
 										<div class="event-wrapper mb-20 " >
 											<div class="event-text">
 												<!--span><i class="far fa-map-marked-alt verdeo"></i> Guatemala - 8 de Septiembre 2021</span-->
@@ -252,7 +212,7 @@ permalink: "index.html"
 
 							<div class="mb-6">
 								<div style="display:flex; justify-content:flex-end">
-								<a class="button" href="/podcasts/index.html">Más Podcasts<i class="icon-arrow-right" style="margin-left:5px"></i></a>
+								<a class="button" href="/podcasts/index.html">Más Videos<i class="icon-arrow-right" style="margin-left:5px"></i></a>
 							</div>	
 						</div>
 					</div>	

@@ -19712,3 +19712,7 @@ select {
 .word-wrap{ 
   white-space: pre-line;
 }
+
+.event-img{
+  height: 50%;
+}
