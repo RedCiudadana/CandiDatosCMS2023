@@ -72,35 +72,38 @@ permalink: "index.html"
 				<div class="section py-6 my-6"  style="background-color: #f1f2fa;">
 					<div class=" m-0">
 						
-						<div class="row text-center px-6 mb-5"  style="justify-content:space-evenly;align-items:flex-start">
+						<div class="row text-center px-6 "  style="justify-content:space-evenly;align-items:flex-start">
 							
 							<div class="p-1 col-xl-5 col-sm-12" style="margin-bottom:1rem">
 								<a href="{{distrito.url}}"><div class="p-1 col-lg-12">
 									<div class="shadow bg-white bg-green-hover p-3" >
-										<img style="height:555px!important" src="/elementos/MAPAS HOME/MAPAS-04.png">
+										<img style="height:550px!important" src="/elementos/MAPAS HOME/MAPAS-04.png">
 										<h3>Elecciones 2023 &nbsp<img style="height:30px; width:30px" src="/elementos/ICONOS/ICONOS-31.png"></h3>
 									</div>
 								</div></a>
 								
 							</div>
 
-							<div class="row p-1 col-mb-30 col-xl-7 col-sm-12 h-100">
-								{% for  distrito in collections.distritos | reverse%}
-								<div class="p-1 col-xl-4 col-sm-12" >
-									<a href="{{distrito.url}}"><div class="shadow bg-white bg-green-hover p-3">
-										<img src="{{distrito.data.fotodistrito}}">
-										<h4>{{distrito.data.title}} <img style="height:30px; width:30px" src="/elementos/ICONOS/ICONOS-31.png"></h4>
-									</div></a>
-								</div>
-								{% endfor %}
-								
-
-								<div class="post-md p-1 col-xl-12 col-sm-12 d-flex justify-content-end">
-									<a href="/distritos/index.html"  class="button">Ver todos los distritos &nbsp<i class="icon-arrow-right"></i></a>
+							<div class="col-mb-30 col-xl-7 col-sm-12 ">
+								<div class="row">
+									{% for  distrito in collections.distritos | reverse%}
+									<div class="p-1 col-xl-4 col-sm-12" >
+										<a href="{{distrito.url}}"><div class="shadow bg-white bg-green-hover p-3">
+											<img src="{{distrito.data.fotodistrito}}">
+											<h4>{{distrito.data.title}} <img style="height:30px; width:30px" src="/elementos/ICONOS/ICONOS-31.png"></h4>
+										</div></a>
+									</div>
+									{% endfor %}
 								</div>
 
 							</div>
 
+						</div>
+
+						<div class="row px-6 mb-5">
+							<div class="post-md p-1 col-xl-12 col-sm-12 d-flex justify-content-end">
+								<a href="/distritos/index.html"  class="button">Ver todos los distritos &nbsp<i class="icon-arrow-right"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
