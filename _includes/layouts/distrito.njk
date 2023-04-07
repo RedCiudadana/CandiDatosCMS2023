@@ -34,7 +34,7 @@
 		============================================= -->
 		<section id="content">
 			<div class="content-wrap" style="background-color:#f1f2fa">
-                <div class="col-lg-12 mx-5 my-2">
+                <div class="col-lg-12 mx-5 mb-50">
                     <p><a href="/distritos/index.html">Distritos</a> <i class="fa-solid fa-chevron-right"></i> <a style="pointer-events: none" href="">{{title}}</a></p>
                 </div>
                 <div class="bg-white mx-6">
@@ -52,7 +52,7 @@
                                     <li class="texto-verde list-dist d-flex">2. &nbsp <img style="width:20px;height:20px" src="/elementos/iconos_perfil/ICONO-07.png"> &nbsp<a href="#2" class="txt-verde">Perfil Demografico (2022)</a></li>
                                     <li class="texto-verde list-dist d-flex">3. &nbsp <img style="width:20px;height:20px" src="/elementos/iconos_perfil/ICONO-08.png"> &nbsp<a href="#3" class="txt-verde">¿Qué se vota en el distrito?</a></li>
                                     <li class="texto-verde list-dist d-flex">4. &nbsp <img style="width:20px;height:20px" src="/elementos/iconos_perfil/ICONO-09.png"> &nbsp<a href="#4" class="txt-verde">Historial de Elección</a></li>
-                                    <li class="texto-verde list-dist d-flex">5. &nbsp <img style="width:20px;height:20px" src="/elementos/iconos_perfil/ICONO-10.png"> &nbsp<a href="#5" class="txt-verde">Liderzagos históricos </a></li>
+                                    <li class="texto-verde list-dist d-flex">5. &nbsp <img style="width:20px;height:20px" src="/elementos/iconos_perfil/ICONO-10.png"> &nbsp<a href="#5" class="txt-verde">Liderazgos históricos </a></li>
                                     <li class="texto-verde list-dist d-flex">6. &nbsp <img style="width:20px;height:20px" src="/elementos/iconos_perfil/ICONO-11.png"> &nbsp<a href="#6" class="txt-verde">Diputados Distritales</a></li>
                                     <li class="texto-verde list-dist d-flex">7. &nbsp <img style="width:20px;height:20px" src="/elementos/iconos_perfil/ICONO-12.png"> &nbsp<a href="#7" class="txt-verde">Alcalde Municipal </a></li>
                                     <li class="texto-verde list-dist d-flex">8. &nbsp <img style="width:20px;height:20px" src="/elementos/iconos_perfil/ICONO-13.png"> &nbsp<a href="#8" class="txt-verde">Partidos ganadores históricos </a></li>
@@ -68,63 +68,63 @@
                                 <div class="title_distrito">
                                     <img style="width:30px;height:30px" src="/elementos/iconos_perfil/ICONO-06.png"><h1 class="title">Perfil de distrito</h1>
                                 </div>
-                                <p>{{perfildistrito}}</p>
+                                <p>{{perfildistrito | rmj | safe}}</p>
                             </div>
 
                             <div class="py-4 px-4" id="2">
                                 <div class="title_distrito">
                                     <img style="width:30px;height:30px" src="/elementos/iconos_perfil/ICONO-07.png"><h1 class="title">Perfil Demografico (2022)</h1>
                                 </div>
-                                <p>{{perfildemografico}}</p>
+                                <p>{{perfildemografico | rmj | safe}}</p>
                             </div>
 
                             <div class="py-4 px-4" id="3">
                                 <div class="title_distrito">
                                     <img style="width:30px;height:30px" src="/elementos/iconos_perfil/ICONO-08.png"><h1 class="title">¿Qué se vota en el distrito?</h1>
                                 </div>
-                                <p>{{razonvoto}}</p>
+                                <p>{{razonvoto | rmj | safe}}</p>
                             </div>
 
                             <div class="py-4 px-4" id="4">
                                 <div class="title_distrito">
                                     <img style="width:30px;height:30px" src="/elementos/iconos_perfil/ICONO-09.png"><h1 class="title">Historial de Elección</h1>
                                 </div>
-                                <p>{{historialeleccion}}</p>
+                                <p>{{historialeleccion | rmj | safe}}</p>
                             </div>
 
                             <div class="py-4 px-4" id="5">
                                 <div class="title_distrito">
-                                    <img style="width:30px;height:30px" src="/elementos/iconos_perfil/ICONO-10.png"><h1 class="title">Liderzagos históricos</h1>
+                                    <img style="width:30px;height:30px" src="/elementos/iconos_perfil/ICONO-10.png"><h1 class="title">Liderazgos históricos</h1>
                                 </div>
-                                <p>{{lidereshistoricos}}</p>
+                                <p>{{lidereshistoricos | rmj | safe}}</p>
                             </div>
 
                             <div class="py-4 px-4" id="6">
                                 <div class="title_distrito">
                                     <img style="width:30px;height:30px" src="/elementos/iconos_perfil/ICONO-11.png"><h1 class="title">Diputados Distritales</h1>
                                 </div>
-                                <p>{{diputadosdistritales}}</p>
+                                <p>{{diputadosdistritales | rmj | safe}}</p>
                             </div>
 
                             <div class="py-4 px-4" id="7">
                                 <div class="title_distrito">
                                     <img style="width:30px;height:30px" src="/elementos/iconos_perfil/ICONO-12.png"><h1 class="title">Alcalde Municipal</h1>
                                 </div>
-                                <p>{{alcaldemun}}</p>
+                                <p>{{alcaldemun | rmj | safe}}</p>
                             </div>
 
                             <div class="py-4 px-4" id="8">
                                 <div class="title_distrito">
                                     <img style="width:30px;height:30px" src="/elementos/iconos_perfil/ICONO-13.png"><h1 class="title">Partidos ganadores históricos </h1>
                                 </div>
-                                <p>{{partidosganadores}}</p>
+                                <p>{{partidosganadores | rmj | safe}}</p>
                             </div>
 
                             <div class="py-4 px-4" id="9">
                                 <div class="title_distrito">
                                     <img style="width:30px;height:30px" src="/elementos/iconos_perfil/ICONO-14.png"><h1 class="title">Participación histórica de mujeres</h1>
                                 </div>
-                                <p>{{participacionmujeres}}</p>
+                                <p>{{participacionmujeres | rmj | safe}}</p>
                             </div>
 
                         </div>

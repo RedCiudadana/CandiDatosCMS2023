@@ -1,5 +1,6 @@
 const moment = require("moment");
 const now = new Date();
+const rmj = require('render-markdown-js');
 
 module.exports = function (eleventyConfig) {
 
@@ -28,9 +29,15 @@ module.exports = function (eleventyConfig) {
         return moment(date).format(format);
     });
 
+    eleventyConfig.addNunjucksFilter("rmj", function (content) {
+        return rmj(content);
+    });
+
     eleventyConfig.addCollection('podcastsHighlighted', (collectionApi) => {
         return collectionApi.getFilteredByTag('podcasts').filter((item) => {
             return item.data.highlight == true;
         });
     });
+
+
 }
