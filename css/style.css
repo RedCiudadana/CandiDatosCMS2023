@@ -19745,3 +19745,9 @@ select {
 .nav-link:hover{
   color:#1FC68B!important
 }
+
+@media only screen and (max-width: 960px) {
+  .border-left{
+    border-left: none!important;
+  }
+}
