@@ -79,22 +79,20 @@ perfildemografico: >-
   2. # Jóvenes  (18-35)
 
 
-  |     |     |     |
+  | 2﻿   | 3﻿    | a﻿sd |
 
-  | --- | --- | --- |
+  | ---- | ----- | ---- |
 
-  |     |     |     |
+  | 2cas | a﻿dsa | a﻿sd |
 
-  |     |     |     |
+  |      |       |      |
 
-  |     |     |     |
+  |      |       |      |
 
-  |     |     |     |
+  |      |       |      |
 
 
   Fuente: Elaboración propia con datos del Portal de Estadísticas de Empadronamiento del TSE (21/02/22). 
-
-
 
 
   <!--EndFragment-->
