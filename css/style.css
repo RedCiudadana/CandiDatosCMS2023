@@ -19741,3 +19741,7 @@ select {
   width: 200px;
   height: 400px;
 }
+
+.nav-link:hover{
+  color:#1FC68B!important
+}
