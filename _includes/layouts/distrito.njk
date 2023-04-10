@@ -136,3 +136,12 @@
             </div>
         </section>
 {% endblock %}
+
+{% block body_javascripts %}
+    <script>
+        if (window.location.hash) {
+            window.location.href = window.location.href.split('#')[0];
+        }
+
+    </script>
+{% endblock %}
