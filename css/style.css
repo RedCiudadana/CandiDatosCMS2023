@@ -19750,8 +19750,19 @@ select {
   color:#1FC68B!important
 }
 
+.bg-slider{
+  background-image:url('/elementos/SLIDER/WEB_CANDIDATOS_2023-25.png');
+  background-size:cover;
+}
+
 @media only screen and (max-width: 960px) {
   .border-left{
     border-left: none!important;
   }
+
+  .bg-slider{
+    background-image:url('/elementos/SLIDER/WEB_CANDIDATOS_2023-28.png');
+  }
 }
+
+
