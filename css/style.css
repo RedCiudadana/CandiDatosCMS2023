@@ -9451,7 +9451,7 @@ td.actions {
   outline: none;
   white-space: nowrap;
   margin: 5px;
-  padding: 15px 22px;
+  padding: 15px 22px!important;
   font-size: 0.875rem;
   line-height: 24px;
   background-color: #1fc68b;
