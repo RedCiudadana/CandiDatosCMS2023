@@ -13,6 +13,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('images');
     eleventyConfig.addPassthroughCopy('admin');
 
+    /* Filtros */
+
     eleventyConfig.addNunjucksFilter("limit", function(array, limit) {
         return array.slice(0, limit);
     });
