@@ -159,6 +159,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/22_g_guatemala.png
-mapa: /images/posts/22_g_guatemala.png
+fotodistrito: /images/posts/06_san-marcos.png
+mapa: /images/posts/06_san-marcos.png
 ---
