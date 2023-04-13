@@ -106,6 +106,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/22_g_guatemala.png
-mapa: /images/posts/22_g_guatemala.png
+fotodistrito: /images/posts/10_el-progreso.png
+mapa: /images/posts/10_el-progreso.png
 ---
