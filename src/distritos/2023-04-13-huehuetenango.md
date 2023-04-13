@@ -169,6 +169,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/22_g_guatemala.png
-mapa: /images/posts/22_g_guatemala.png
+fotodistrito: /images/posts/02_huehuetenango.png
+mapa: /images/posts/02_huehuetenango.png
 ---
