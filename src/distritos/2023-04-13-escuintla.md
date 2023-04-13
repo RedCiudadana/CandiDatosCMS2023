@@ -125,6 +125,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/22_g_guatemala.png
-mapa: /images/posts/22_g_guatemala.png
+fotodistrito: /images/posts/18_escuintla.png
+mapa: /images/posts/18_escuintla.png
 ---
