@@ -115,6 +115,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/22_g_guatemala.png
-mapa: /images/posts/22_g_guatemala.png
+fotodistrito: /images/posts/08_totonicapan.png
+mapa: /images/posts/08_totonicapan.png
 ---
