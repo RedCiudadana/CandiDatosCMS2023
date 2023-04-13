@@ -126,6 +126,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/22_g_guatemala.png
-mapa: /images/posts/22_g_guatemala.png
+fotodistrito: /images/posts/00_ciudad-de-guatemala.png
+mapa: /images/posts/00_ciudad-de-guatemala.png
 ---
