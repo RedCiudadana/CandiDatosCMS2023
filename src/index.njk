@@ -75,7 +75,7 @@ permalink: "index.html"
 						<div class="row text-center px-6 "  style="justify-content:space-evenly;align-items:flex-start">
 							
 							<div class="p-1 col-xl-5 col-sm-12" style="margin-bottom:1rem">
-								<a href="{{distrito.url}}"><div class="p-1 col-lg-12">
+								<a href="/distritos/index.html"><div class="p-1 col-lg-12">
 									<div class="shadow bg-white bg-green-hover p-3" >
 										<img style="height:550px!important" src="/elementos/MAPAS HOME/MAPAS-04.png">
 										<h3>Elecciones 2023 &nbsp<img style="height:30px; width:30px" src="/elementos/ICONOS/ICONOS-31.png"></h3>
@@ -86,7 +86,7 @@ permalink: "index.html"
 
 							<div class="col-mb-30 col-xl-7 col-sm-12 ">
 								<div class="row">
-									{% for  distrito in collections.distritos | reverse%}
+									{% for  distrito in collections.distritos | limit(6)%}
 									<div class="p-1 col-xl-4 col-sm-12" >
 										<a href="{{distrito.url}}"><div class="shadow bg-white bg-green-hover p-3">
 											<img src="{{distrito.data.fotodistrito}}">
