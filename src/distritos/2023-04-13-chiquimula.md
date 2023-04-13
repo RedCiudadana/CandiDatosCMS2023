@@ -129,6 +129,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/22_g_guatemala.png
-mapa: /images/posts/22_g_guatemala.png
+fotodistrito: /images/posts/16_chiquimula.png
+mapa: /images/posts/16_chiquimula.png
 ---
