@@ -149,6 +149,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/22_g_guatemala.png
-mapa: /images/posts/22_g_guatemala.png
+fotodistrito: /images/posts/17_suchitepequez.png
+mapa: /images/posts/17_suchitepequez.png
 ---
