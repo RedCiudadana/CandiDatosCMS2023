@@ -129,6 +129,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/22_g_guatemala.png
-mapa: /images/posts/22_g_guatemala.png
+fotodistrito: /images/posts/14_chimaltenango.png
+mapa: /images/posts/14_chimaltenango.png
 ---
