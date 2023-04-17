@@ -18444,6 +18444,13 @@ hr {
   border-top-width: 0 !important;
 }
 
+.border-green{
+  border:3px solid #1fc68b;
+  width:50px;
+  margin:1rem 0;
+  border-radius: 50em;
+}
+
 .title {
   font-size: 25px;
   font-weight: bold;
