@@ -14983,7 +14983,7 @@ h3.titular-title {
 .heading-block h4 + span {
   font-size: 1.25rem;
 }
-
+/*
 .heading-block::after {
   content: "";
   display: block;
@@ -14991,7 +14991,7 @@ h3.titular-title {
   width: 40px;
   border-top: 2px solid #202D3D;
 }
-
+*/
 .center .heading-block::after,
 .text-center .heading-block::after,
 .heading-block.center::after,
