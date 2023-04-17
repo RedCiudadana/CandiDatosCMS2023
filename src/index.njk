@@ -81,7 +81,7 @@ permalink: "index.html"
 									{% for  distrito in collections.distritos | limit(6)%}
 									<div class="p-1 col-xl-4 col-sm-12" >
 										<a href="{{distrito.url}}"><div class="shadow bg-white bg-green-hover p-3">
-											<img src="{{distrito.data.fotodistrito}}">
+											<img style="height:220px;max-height:80%;width:100%" src="{{distrito.data.fotodistrito}}">
 											<h4>{{distrito.data.title}} <img style="height:30px; width:30px" src="/elementos/ICONOS/ICONOS-31.png"></h4>
 										</div></a>
 									</div>
