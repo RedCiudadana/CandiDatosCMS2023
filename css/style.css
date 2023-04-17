@@ -124,6 +124,9 @@
   src: url("elementos/ELEMENTOS/FONT/Metropolis-SemiBold.otf");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+
 /* ----------------------------------------------------------------
 	Bootstrap Adjustments
 -----------------------------------------------------------------*/
@@ -220,6 +223,7 @@ body {
 a {
   text-decoration: none !important;
   color: #1abc9c;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 a:hover {
