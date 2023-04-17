@@ -19815,17 +19815,6 @@ select {
 	color: #777!important;
 }
 
-.cuadro_candidatura .texto a{
-	background-color: #42bca7;
-	color: #fff;
-	padding: 7px 10px;
-	border-radius: 2px;
-}
-
-.cuadro_candidatura .texto a:hover{
-	background-color: #42cda7;
-}
-
 .pagination ul {
   list-style: none;
   display: flex;
@@ -19841,10 +19830,11 @@ select {
 .pagination li a {
   display: inline-block;
   padding: 5px 10px;
-  background-color: #eee;
+  background-color: #fff;
   color: #333;
   text-decoration: none;
   border-radius: 5px;
+  margin: 20px 0;
 }
 
 .pagination li.current a {
