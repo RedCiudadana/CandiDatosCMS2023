@@ -139,6 +139,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/04_alta-verapaz.png
-mapa: /images/posts/04_alta-verapaz.png
+fotodistrito: /images/posts/altaverapaz.png
+mapa: /images/posts/altaverapaz.png
 ---
