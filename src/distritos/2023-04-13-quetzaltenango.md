@@ -142,6 +142,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/07_quetzaltenango.png
-mapa: /images/posts/07_quetzaltenango.png
+fotodistrito: /images/posts/quetzaltenango.png
+mapa: /images/posts/quetzaltenango.png
 ---
