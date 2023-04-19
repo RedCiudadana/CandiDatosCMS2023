@@ -116,6 +116,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/12_retahuleu.png
-mapa: /images/posts/12_retahuleu.png
+fotodistrito: /images/posts/retalhuleo.png
+mapa: /images/posts/retalhuleo.png
 ---
