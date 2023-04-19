@@ -19851,3 +19851,8 @@ select {
   background-color: #1fc68b!important;
   color: #fff!important;
 }
+
+.distritos > div > ul{
+  list-style: disc;
+  margin-left: 20px;
+}
