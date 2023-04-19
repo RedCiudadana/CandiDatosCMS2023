@@ -129,6 +129,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/16_chiquimula.png
-mapa: /images/posts/16_chiquimula.png
+fotodistrito: /images/posts/chiquimula.png
+mapa: /images/posts/chiquimula.png
 ---
