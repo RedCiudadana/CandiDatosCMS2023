@@ -149,6 +149,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/17_suchitepequez.png
-mapa: /images/posts/17_suchitepequez.png
+fotodistrito: /images/posts/suchitepequez.png
+mapa: /images/posts/suchitepequez.png
 ---
