@@ -120,6 +120,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/20_santa-rosa.png
-mapa: /images/posts/20_santa-rosa.png
+fotodistrito: /images/posts/santarosa.png
+mapa: /images/posts/santarosa.png
 ---
