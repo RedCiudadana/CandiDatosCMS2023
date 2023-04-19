@@ -118,6 +118,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/19_sacatepquez.png
-mapa: /images/posts/19_sacatepquez.png
+fotodistrito: /images/posts/sacatepequez.png
+mapa: /images/posts/sacatepequez.png
 ---
