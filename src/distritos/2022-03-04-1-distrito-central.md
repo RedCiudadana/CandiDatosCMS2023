@@ -49,6 +49,6 @@ partidosganadores: >-
 
   Esta ha sido la tendencia con el resto de partidos en el distrito central, puesto que no ha existido un claro ganador constante durante estos períodos. Cada uno de los procesos electorales aislados ha contado con un partido que ha dominado y ha obtenido al menos 3 de los 11 escaños disputados. Estos fueron el partido CREO y Patriota para el proceso del 2011, EG en el 2015 y Movimiento Semilla recientemente en el año 2019. El partido CREO y VIVA han sido los únicos partidos con presencia relevante de diputados distritales en este tiempo, mientras el resto de escaños se ha repartido entre partidos que se alternan (o desaparecen) entre cada elección.
 participacionmujeres: Participacion Historica
-fotodistrito: /images/posts/22_g_guatemala.png
-mapa: /images/posts/22_g_guatemala.png
+fotodistrito: /images/posts/mapa-guatemala-40.png
+mapa: /images/posts/mapa-guatemala-40.png
 ---
