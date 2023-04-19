@@ -125,6 +125,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/18_escuintla.png
-mapa: /images/posts/18_escuintla.png
+fotodistrito: /images/posts/escuintla.png
+mapa: /images/posts/escuintla.png
 ---
