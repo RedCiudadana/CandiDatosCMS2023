@@ -106,6 +106,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/10_el-progreso.png
-mapa: /images/posts/10_el-progreso.png
+fotodistrito: /images/posts/elprogreso.png
+mapa: /images/posts/elprogreso.png
 ---
