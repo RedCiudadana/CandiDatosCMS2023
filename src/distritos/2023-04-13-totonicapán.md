@@ -115,6 +115,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/08_totonicapan.png
-mapa: /images/posts/08_totonicapan.png
+fotodistrito: /images/posts/totonicapan.png
+mapa: /images/posts/totonicapan.png
 ---
