@@ -110,6 +110,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/09_baja-verapaz.png
-mapa: /images/posts/09_baja-verapaz.png
+fotodistrito: /images/posts/bajaverapaz.png
+mapa: /images/posts/bajaverapaz.png
 ---
