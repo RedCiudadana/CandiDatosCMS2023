@@ -159,6 +159,6 @@ participacionmujeres: >-
 
 
   <!--EndFragment-->
-fotodistrito: /images/posts/06_san-marcos.png
-mapa: /images/posts/06_san-marcos.png
+fotodistrito: /images/posts/sanmarcos.png
+mapa: /images/posts/sanmarcos.png
 ---
